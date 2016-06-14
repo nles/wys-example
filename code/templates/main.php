@@ -18,17 +18,8 @@
 <body>
 
 <div id="page-wrapper">
-  <h1>Static header</h1>
-  <?php
-    // wys quick editor
-    $wqe_meta = [
-      'type'=>'collection',
-      'slug'=>'pages',
-      'field'=>'content',
-      'id'=>$page["_id"]
-    ];
-    print wqe($page["content"],$wqe_meta);
-  ?>
+  <?php // see views/front.php for example of quick edit field syntax ?>
+  <?php print $content_for_layout; ?>
 <div>
 
 </body>
