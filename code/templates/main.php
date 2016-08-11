@@ -13,6 +13,7 @@
     $wys = ["edit_path" => $collection_id."/".$page["_id"]];
     require('cockpit/wys/head.php');
   ?>
+  <script src="/code/assets/js/main.js"></script>
 
 </head>
 <body>
